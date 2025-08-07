@@ -1,0 +1,42 @@
+body{
+    font-family: 'Roboto', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  background-color: #6e83a4;
+  color: #121010;
+  padding: 40px;
+
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box_input input{
+   width: 300px;
+  height: 30px;
+  background-color: #d0cccc;
+  border: none;
+  padding: 7px;
+  border-radius: 10px;
+}
+
+ .my-button {
+      padding: 10px 20px;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      border-radius: 12px; 
+      font-size: 16px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    .my-button:hover {
+      background-color: #0056b3;
+    }
